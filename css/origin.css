@@ -337,6 +337,10 @@ main>.container>.container__row>.cont_zap__abon>.btns_forms{
 }
 }
 @media(max-width: 500px){
+.music_pleer>.use_pleer{
+		max-width: 300px;
+		
+}	
 main>.container>.container__row>.cont_zap__abon{
 	margin-top: 20%;
 }
