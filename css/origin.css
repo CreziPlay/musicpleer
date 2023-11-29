@@ -301,7 +301,10 @@ max-width: 500px;
 
 
 @media(max-width: 650px){
+.music_pleer>.use_pleer{
+max-width: 400px;
 
+}
 main>.container>.container__row>.cont_ysl>.cart>.btn_cart>li{
 	width: 150px;
 }
@@ -332,7 +335,7 @@ main>.container>.container__row>.cont_zap__abon>.btns_forms{
 	display: flex;
 	margin-top: 5%;
 }
-
+}
 @media(max-width: 500px){
 main>.container>.container__row>.cont_zap__abon{
 	margin-top: 20%;
