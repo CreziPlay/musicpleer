@@ -245,7 +245,8 @@ nav>.container>.container__row>.nav_bar{
 
 }
 .overfl>.btn_mobile{
-	display: block;
+	display: flex;
+	align-items: center;
 }
 .pleer_row{
 	padding: 5%;
@@ -372,7 +373,7 @@ main>.container>.container__row>.cont_zap__abon>.btns_forms{
 		border-radius: 0;
 	}	
 .music_pleer>.use_pleer{
-		max-width: 350px;
+		max-width: 300px;
 		
 }
 main>.container>.container__row>.cont_zap__abon{
