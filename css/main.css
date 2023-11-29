@@ -1,0 +1,150 @@
+.music_pleer{
+    max-width: 600px;
+    border: solid 10px black;
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+    padding-bottom: 10%;
+}
+.name_trek_div{
+    position: relative;
+    margin-bottom: 10%;
+}
+.name_trek{
+    background: black;
+    width: max-content;
+    padding: 5px 10px;
+    margin: 0 auto;
+    color: white;
+    padding: 5px;
+    font-size: 31.43px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Montserrat-Black";
+}
+
+.name_plelist{
+    font-size: 31.43px;
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: "Montserrat-Black";
+}
+
+.music_pleilist{
+    background: black;
+    border-radius: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+
+}
+.trek{
+    background: white;
+    border-radius: 11px;
+    font-size: 31.43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat-Black";
+    padding: 15px;
+    transition-duration: .5s;
+}
+.cirlc{
+    opacity: 0%;
+    border-radius: 4444px;
+    background: black;
+    width: 5px;
+    height: 5px;
+    transition-duration: .5s;
+}
+.trek:hover .cirlc{
+    opacity: 100%;
+    width: 25px;
+    height: 25px;
+}
+.active-circl{
+    opacity: 100%;
+    width: 25px;
+    height: 25px;
+}
+.trek:hover{
+cursor: pointer;
+transform: scale(1.05);
+}
+.use_pleer{
+    max-width: 405px;
+    margin: 0 auto;
+}
+.btns_pleer{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.pleer_row{
+    transition-duration: .5s;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+}
+.img_music{
+    width: 100%;
+    max-height: 556px;
+    filter: brightness(90%);
+}
+.treeks{
+    display: grid;
+    grid-template-rows: repeat(7, minmax(min-content,max-content));
+    gap: 5%;
+}
+.btn{
+    object-fit: none;
+    transition-duration:.5s;
+    user-select:none ; 
+}
+.btn:hover{
+cursor: pointer;
+}
+
+.nextbtn:hover{
+    transform: translateX(10px);
+}
+.prevbtn:hover{
+    transform: translateX(-10px);
+}
+.playbtn:hover{
+    transform: scale(1.1);
+}
+.line{
+    height: 15px;
+    background: transparent;
+    border: solid black 1px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.line:hover{
+    cursor: pointer;
+}
+.progress{
+    height: 100%;
+    background: black;
+    width: 0;
+    border-radius: 0px 5px 5px 0px;
+
+}
+.btn_mobile{
+    display: none;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: black;
+    top: 50%;
+    right: 0;
+    border-radius: 30px;
+}
+.overfl{
+    position: relative;
+}
