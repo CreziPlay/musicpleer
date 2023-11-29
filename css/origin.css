@@ -394,6 +394,9 @@ header>.container>.container__row>.cont_headrup>.txt40{
 }
 
 @media(max-width: 450px){
+.music_pleer>.name_trek_div{
+	margin-bottom: 15%;
+}
 .music_pleer>.use_pleer{
 	max-width: 250px;
 		
