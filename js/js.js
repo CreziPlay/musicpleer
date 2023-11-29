@@ -182,15 +182,19 @@ let indexPler = 0;
 
 function musicList(){
     const pleerRow = document.querySelector('.pleer_row')
-    
+    const imgBtnMobile = document.querySelector('.img_btn_mobile')
     if(indexPler==0){
     pleerRow.style.transform = "translateX(-100%)";
     indexPler ++;
+
+    imgBtnMobile.style.transform = "rotate(180deg)";
     btnMobile.style.background ="white";
     }else{
         pleerRow.style.transform = "translateX(0%)";
         indexPler --;
         btnMobile.style.background ="black";
+        imgBtnMobile.style.transform = "rotate(0deg)";
+
     }
 
 }
