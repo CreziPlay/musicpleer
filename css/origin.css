@@ -394,6 +394,10 @@ header>.container>.container__row>.cont_headrup>.txt40{
 }
 
 @media(max-width: 450px){
+.music_pleer>.use_pleer{
+	max-width: 200px;
+		
+}
 main>.container>.container__row>.cont_zap__abon>.cont_forms>.forma>.line_form>.form_txt{
 	font-size: 18px;
 }
