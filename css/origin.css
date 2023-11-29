@@ -252,7 +252,7 @@ nav>.container>.container__row>.nav_bar{
 }
 .pleer_row>.music_pleer{
 width: 100%;
-max-width: 100%;
+max-width: 97.3%;
 
 }
 .music_pleer>.use_pleer{
@@ -301,6 +301,8 @@ max-width: 500px;
 
 
 @media(max-width: 650px){
+
+
 .music_pleer>.use_pleer{
 max-width: 400px;
 
@@ -337,10 +339,42 @@ main>.container>.container__row>.cont_zap__abon>.btns_forms{
 }
 }
 @media(max-width: 500px){
+	.container>.overfl>.pleer_row{
+		gap: 0;
+	
+	}
+	.music_pleer>.name_trek_div{
+		margin-bottom: 15%;
+	}
+	.use_pleer>.btns_pleer{
+		margin-top: 20%;
+	}
+	main>.container{
+		padding: 0;
+	}
+	.overfl{
+		height: 100vh;
+	}
+	.overfl>.pleer_row{
+		padding: 0;
+		height: 100vh;
+	}
+	.img_music_container>.img_music {
+		height: 65vh;
+		max-height: 100%;
+	}
+	.pleer_row>.music_pleilist{
+		border-radius: 0;
+	
+		flex: 0 0 90%;
+	}
+	.overfl>.pleer_row>.music_pleer{
+		border-radius: 0;
+	}	
 .music_pleer>.use_pleer{
 		max-width: 300px;
 		
-}	
+}
 main>.container>.container__row>.cont_zap__abon{
 	margin-top: 20%;
 }
@@ -394,11 +428,9 @@ header>.container>.container__row>.cont_headrup>.txt40{
 }
 
 @media(max-width: 450px){
-.music_pleer>.name_trek_div{
-	margin-bottom: 15%;
-}
-.music_pleer>.use_pleer{
-	max-width: 250px;
+
+	
+	
 		
 }
 main>.container>.container__row>.cont_zap__abon>.cont_forms>.forma>.line_form>.form_txt{
@@ -425,6 +457,7 @@ header>.container>.swiper>.swiper-wrapper>.swiper-slide>.cont_headrup>.txt40{
 }
 
 @media(max-width: 435px){
+
 	header>.container>.container__row>.menu>ul{
 	grid-template-columns: 32.5% 32.5% 32.5% ;
 
@@ -443,6 +476,10 @@ main>.container>.container__row>.cont_zap__abon>.cont_forms>.forma_zapis>.line_f
 }
 
 @media(max-width: 410px){
+	.music_pleer>.use_pleer{
+		max-width: 250px;
+		
+}
 main>.container>.container__row>.cont_zap__abon>.cont_forms>.forma>.line_form>.form_txt{
 	font-size: 16px;
 
@@ -457,6 +494,7 @@ main>.container>.container__row>.cont_zap__abon>.btns_forms>.abon_btn{
 header>.container>.container__row>.cont_headrup>.txt40{
 	font-size: 14px;
 }
+
 }
 @media(max-width: 400px){
 header>.form_reg>.container_avt>div{
