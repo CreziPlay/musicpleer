@@ -239,7 +239,7 @@ nav>.container>.container__row>.nav_bar{
 	padding-right: 2%;
 }
 
-@media(max-width: 850px){
+@media(max-width: 990px){
 .container>.overfl>.pleer_row{
 	display: flex;
 
