@@ -8,7 +8,7 @@ const  playbtn = document.querySelector('.playbtn'),
         btnMobile = document.querySelector('.btn_mobile'),
         imgMusic = document.querySelector('.img_music')
        
-let songs =['glaza_ne_vrut','dimond','svininalyne','Topajj'];//Название песен
+let songs =['VykhodaNet','Trevoga','Topajj','Navesele'];//Название песен
 
 const musicPlaylist = document.querySelector(".treeks"); 
 // Цикл для добавления песен в плейлист
